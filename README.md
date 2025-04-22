@@ -14,12 +14,11 @@
 <img src="data\front.jpg" alt="Demonstration" width="90%"><br>
 
 ## Project's structure
-
 data<br />
 &emsp;├── datasets&emsp;&emsp;&emsp;&emsp;&emsp;# **MISSING FROM THE REPOSITORY**<br/>
-&emsp;└── test_image.jpg&emsp;&emsp;&emsp;# Melanoma image of the RDS-2 dermatoscope (from the Internet)<br/>
+&emsp;└── test_image.jpg&emsp;&emsp;&emsp;# Melanoma image of the RDS-2 dermatoscope taken from [here](https://biophotonica.ru/?q=rss.xml)<br/>
 src<br />
-&emsp;├── web_api&emsp;&emsp;&emsp;&emsp;# Service realization<br />
+&emsp;└── web_api&emsp;&emsp;&emsp;&emsp;# Service realization<br />
 &emsp;&emsp;├── static/<br />
 &emsp;&emsp;├── templates/<br />
 &emsp;&emsp;├── main.py<br />
@@ -29,8 +28,8 @@ src<br />
 &emsp;├── data_preparation.py&emsp;&emsp;#Functions used for datasets parsing and preparation<br/>
 &emsp;├── database.ini&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#**MISSING FROM THE REPOSITORY**<br/>
 &emsp;├── database.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#DB functions<br/>
-&emsp;├── h_opt.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#Hyperparameters optimization using [Optuna](https://optuna.org)<br/>
-&emsp;├── models.py&emsp;&emsp;&emsp;&emsp;&emsp;# In the final pipeline EfficientNet-B4 is used <br />
+&emsp;├── h_opt.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;#Hyperparameters optimization using [Optuna](https://optuna.org)<br/>
+&emsp;├── models.py&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# In the final pipeline EfficientNet-B4 is used <br />
 &emsp;├── prediction.py&emsp;&emsp;&emsp;&emsp;&emsp;# Functions for prediction<br />
 &emsp;├── processing&emsp;&emsp;&emsp;&emsp;&emsp;#**Lesion localization code**<br />
 &emsp;└── training.py&emsp;&emsp;&emsp;&emsp;&emsp;#Training using PyTorch
