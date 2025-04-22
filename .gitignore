@@ -1,0 +1,6 @@
+venv
+**.ini
+**.idea
+**/__pycache__/
+
+/data/datasets
