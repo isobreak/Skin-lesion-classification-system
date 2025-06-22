@@ -48,14 +48,6 @@ __Important Note:__ This system is a decision support tool and does not replace 
     *   `processing.py`:  Includes code related to lesion localization in the dermoscopic images.
     *   `training.py`: Contains the training loop and related functions for training the model using PyTorch.
 
-## Installation via PIP
-&emsp;Pull repo and run **pip install -r requirements.txt**<br>
-&emsp;Python version: 3.9
-
-## Run using Uvicorn
-&emsp; Run **uvicorn src.web_api.main:app**<br>
-&emsp; Default port: 8000<br>
-
 ## Installation
 
 To install the project, use PIP and Python 3.9.
